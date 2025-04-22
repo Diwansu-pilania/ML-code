@@ -8,7 +8,7 @@ Example:
 python
 Copy
 Edit
-from sklearn.impute import KNNImputer
+from sklearn.impute import KNNImpute
 
 imputer = KNNImputer(n_neighbors=5)
 df_test_imputed = imputer.fit_transform(df_test)
